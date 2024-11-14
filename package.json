@@ -1,0 +1,16 @@
+{
+  "name": "codember.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "reto2": "nodemon reto2.js"
+  },
+  "keywords": [],
+  "author": "IvGaLa",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
