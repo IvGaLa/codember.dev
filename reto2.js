@@ -97,4 +97,12 @@ fs.readFileSync(fileLog, 'utf8')
 // Mostramos el resultado
 console.log(`submit ${verdaderos}true${falsos}false`);
 
-// submit 299true198false --- Lo da como solución incorrecta...
+/* Han actualizado la web con este mensaje:
+
+--- advertencia ---
+ΩMEGA ha causado estragos en el sistema y la solución del reto R2 ha cambiado. Si tu resultado anterior fue incorrecto, ¡intenta enviarlo de nuevo!
+
+
+Ahora si es correcta la solución
+
+*/
