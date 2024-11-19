@@ -64,7 +64,7 @@ z :  122
 
 import fs from 'fs'
 
-const fileLog = 'log.txt'
+const fileLog = '2024/reto02/input.txt'
 let verdaderos = 0
 let falsos = 0
 let isFalse = false

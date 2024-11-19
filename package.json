@@ -4,11 +4,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "reto2": "nodemon reto2.js"
+    "2024:02": "nodemon 2024/reto02/index.js",
+    "2024:03": "nodemon 2024/reto03/index.js"
   },
   "keywords": [],
   "author": "IvGaLa",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvGaLa/codember.dev.git"
+  },
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.7"
