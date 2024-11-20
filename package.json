@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "2024:01": "nodemon 2024/reto01/index.js",
     "2024:02": "nodemon 2024/reto02/index.js",
     "2024:03": "nodemon 2024/reto03/index.js"
   },
