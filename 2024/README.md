@@ -16,11 +16,11 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 
 ## Soluciones
 
-| #   | Desafío                                                              |
-| --- | -------------------------------------------------------------------- |
-| 01  | <img src="img/icons/R01.webp"> [Terminal desbloqueada]()             |
-| 02  | <img src="img/icons/R02.webp"> [Estamos en peligro](reto02/index.js) |
-| 03  | <img src="img/icons/R03.webp"> [Siguiendo la pista](reto03/index.js) |
+| #   | Desafío                                                                 |
+| --- | ----------------------------------------------------------------------- |
+| 01  | <img src="img/icons/R01.webp"> [Terminal desbloqueada](reto01/index.js) |
+| 02  | <img src="img/icons/R02.webp"> [Estamos en peligro](reto02/index.js)    |
+| 03  | <img src="img/icons/R03.webp"> [Siguiendo la pista](reto03/index.js)    |
 
 ## Secretos
 
