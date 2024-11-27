@@ -34,3 +34,4 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 - <img src="img/icons/S08.webp">S08.- Error inesperado
 - <img src="img/icons/S09.webp">S09.- Admin ejemplar
 - <img src="img/icons/S10.webp">S10.- Ping Pong
+- <img src="img/icons/S11.webp">S11.- MiduGato
