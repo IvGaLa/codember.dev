@@ -6,12 +6,13 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 
 ## Progreso
 
-- Retos completados: 3 de 3
-- Retos secretos descubiertos: 10 de 10
+- Retos completados: 3 de 5
+- Retos secretos descubiertos: 12 de 13
 
 ## Changelog
 
-- **19 Nov 2024** - Reto 3 completado. 10 secretos descubiertos
+- **27 Nov 2024** - Secretos 11 y 12 descubiertos.
+- **19 Nov 2024** - Reto 3 completado. 10 secretos descubiertos.
 - **14 Nov 2024** - Retos 1 y 2 completados. 6 secretos descubiertos.
 
 ## Soluciones
