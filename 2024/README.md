@@ -6,11 +6,13 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 
 ## Progreso
 
-- Retos completados: 4 de 5
+- Retos completados: 5 de 5
 - Retos secretos descubiertos: 13 de 13
+- Logro supremo: 👍
 
 ## Changelog
 
+- **28 Nov 2024** - Reto 5 y logro supremo completados.
 - **28 Nov 2024** - Reto 4 completado.
 - **27 Nov 2024** - Secreto 13 descubierto.
 - **27 Nov 2024** - Secretos 11 y 12 descubiertos.
@@ -25,6 +27,7 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 | 02  | <img src="img/icons/R02.webp"> [Estamos en peligro](reto02/index.js)    |
 | 03  | <img src="img/icons/R03.webp"> [Siguiendo la pista](reto03/index.js)    |
 | 04  | <img src="img/icons/R04.webp"> [Problemas de red](reto04/index.js)      |
+| 05  | <img src="img/icons/R05.webp"> [Terminator](reto05/index.js)            |
 
 ## Secretos
 
@@ -41,3 +44,7 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 - <img src="img/icons/S11.webp">S11.- MiduGato
 - <img src="img/icons/S12.webp">S12.- miau
 - <img src="img/icons/S13.webp">S13.- mars.codes
+
+## Supremo
+
+- <img src="img/icons/Supremo.webp">¡Has logrado vencer a ΩMEGA!
