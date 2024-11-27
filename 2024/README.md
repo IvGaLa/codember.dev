@@ -6,11 +6,12 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 
 ## Progreso
 
-- Retos completados: 3 de 5
+- Retos completados: 4 de 5
 - Retos secretos descubiertos: 13 de 13
 
 ## Changelog
 
+- **28 Nov 2024** - Reto 4 completado.
 - **27 Nov 2024** - Secreto 13 descubierto.
 - **27 Nov 2024** - Secretos 11 y 12 descubiertos.
 - **19 Nov 2024** - Reto 3 completado. 10 secretos descubiertos.
@@ -23,6 +24,7 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 | 01  | <img src="img/icons/R01.webp"> [Terminal desbloqueada](reto01/index.js) |
 | 02  | <img src="img/icons/R02.webp"> [Estamos en peligro](reto02/index.js)    |
 | 03  | <img src="img/icons/R03.webp"> [Siguiendo la pista](reto03/index.js)    |
+| 04  | <img src="img/icons/R04.webp"> [Problemas de red](reto04/index.js)      |
 
 ## Secretos
 

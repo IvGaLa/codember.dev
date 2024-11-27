@@ -45,86 +45,13 @@ Accede al archivo network.txt, que contiene una lista de conexiones entre nodos.
 Pista: Hay 70 nodos a salvo... ¡ahora sólo falta saber cuáles son!
 */
 
-import { _readInput } from '../lib.js'
+import { reto04 } from "./reto04.js";
 
 
-
-const sortNetworks = (a, b) => {
-  const firstA = Number(a.split(',')[0])
-  const firstB = Number(b.split(',')[0])
-  return firstA - firstB
-}
-
-
-
-const reto04 = (_file) => {
-  const _d = _readInput(_file)
-  const _data = _d[0].replaceAll(' ', '')
-
-  const regexp = new RegExp('[0-9]+,[0-9]+', 'gm')
-  const networks = Array.from(_data.matchAll(regexp), (match) => match[0])/*.sort(sortNetworks)*/.map(node => {
-    const net = node.split(',').map(Number)
-    return net
-  })
-  // const networks = Array.from(_data.matchAll(regexp), (match) => match[0]).sort(sortNetworks).map(node => {
-  //   const net = node.split(',').map(Number)
-  //   return net
-  // })
-
-  let redActual
-  let redSiguiente
-  let omega = false
-  const redesSalvadas = []
-  for (let i = 0; i < networks.length; i++) {
-    if (networks[i + 1]) {
-      redActual = networks[i]
-      redSiguiente = networks[i + 1]
-      if (redActual[1] != redSiguiente[0] && !omega) {
-        // console.log('son diferentes');
-        // console.log(redActual);
-        redesSalvadas.push(redActual)
-      } else {
-        if (redActual[1] == redSiguiente[0]) {
-          omega = true
-        } else {
-          omega = false
-        }
-      }
-    } else {
-      // Estamos mirando la última red...
-      redActual = networks[i]
-      if (!omega) {
-        // console.log('son diferentes');
-        // console.log(redActual);
-        redesSalvadas.push(redActual)
-      }
-    }
-
-  }
-
-  //console.log(redesSalvadas);
-  const submit = []
-  redesSalvadas.map(red => {
-    submit.push(red.join(','))
-  })
-  console.log(`submit ${submit.join(',')}`);
-
-
-}
-
-
-// No váido: submit 2,4,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,155,156,157,158,175,176,177,178,179,180,181,182,183,184,195,196
-// No váido: submit 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,155,156,157,158,175,176,177,178,179,180,181,182,183,184,195,196
-
-
+// Válido: submit 13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,155,156,157,158,175,176,177,178,179,180,181,182,183,184,195,196
 
 const _path = '2024/reto04/'
-const examples = []
-examples.push('ejemplo1.txt')
-examples.push('ejemplo2.txt')
-examples.push('ejemplo3.txt')
-examples.map(_f => reto04(`${_path}${_f}`))
-
-
 const input = 'network.txt'
-reto04(`${_path}${input}`)
+const submit = reto04(`${_path}${input}`)
+
+console.log(`submit: ${submit}`);
