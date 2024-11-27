@@ -7,10 +7,11 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 ## Progreso
 
 - Retos completados: 3 de 5
-- Retos secretos descubiertos: 12 de 13
+- Retos secretos descubiertos: 13 de 13
 
 ## Changelog
 
+- **27 Nov 2024** - Secreto 13 descubierto.
 - **27 Nov 2024** - Secretos 11 y 12 descubiertos.
 - **19 Nov 2024** - Reto 3 completado. 10 secretos descubiertos.
 - **14 Nov 2024** - Retos 1 y 2 completados. 6 secretos descubiertos.
@@ -37,3 +38,4 @@ Realizo los retos de **[Codember](https://codember.dev)** (Juego con retos de pr
 - <img src="img/icons/S10.webp">S10.- Ping Pong
 - <img src="img/icons/S11.webp">S11.- MiduGato
 - <img src="img/icons/S12.webp">S12.- miau
+- <img src="img/icons/S13.webp">S13.- mars.codes
