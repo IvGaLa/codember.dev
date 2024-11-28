@@ -54,4 +54,4 @@ const _path = '2024/reto04/'
 const input = 'network.txt'
 const submit = reto04(`${_path}${input}`)
 
-console.log(`submit: ${submit}`);
+console.log(`submit ${submit}`);

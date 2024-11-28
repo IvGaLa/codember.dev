@@ -17,7 +17,8 @@ export const reto04 = (_file) => {
   const networks = getNetworks(_file)
   const subredes = []
 
-  for (const [nodoAnterior, nodoSiguiente] of networks) {
+  for (let i = 0; i < networks.length; i++) {
+    const [nodoAnterior, nodoSiguiente]=networks[i]
     if (subredes.length === 0) { // Añadimos la primera subred
       subredes.push([nodoAnterior, nodoSiguiente])
       continue
